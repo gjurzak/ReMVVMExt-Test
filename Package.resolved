@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Loaders",
+        "repositoryURL": "https://github.com/dgrzeszczak/Loaders",
+        "state": {
+          "branch": "feature/bundleModule",
+          "revision": "2c5ad6fdd5885858d87b54916ede203ff768f664",
+          "version": null
+        }
+      },
+      {
+        "package": "MVVM",
+        "repositoryURL": "https://github.com/dgrzeszczak/MVVM",
+        "state": {
+          "branch": null,
+          "revision": "178ab99ea3286629975c728cbeb68d0dcd0a3c33",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "ReMVVM",
+        "repositoryURL": "https://github.com/gjurzak/ReMVVM-Test",
+        "state": {
+          "branch": "develop",
+          "revision": "2a78db2a27df7924bd3141876a36ceb81f58d3fa",
+          "version": null
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift",
+        "state": {
+          "branch": null,
+          "revision": "c8742ed97fc2f0c015a5ea5eddefb064cd7532d2",
+          "version": "6.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

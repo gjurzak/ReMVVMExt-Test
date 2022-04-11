@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0825180A22AA8F640062A4EB /* ReMVVMExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 0825180822AA8F640062A4EB /* ReMVVMExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0825181D22AA90C50062A4EB /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825181122AA90C40062A4EB /* Navigation.swift */; };
+		0825181E22AA90C50062A4EB /* ReMVVM+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825181222AA90C50062A4EB /* ReMVVM+Rx.swift */; };
+		0825181F22AA90C50062A4EB /* StoreActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825181322AA90C50062A4EB /* StoreActions.swift */; };
+		0825182022AA90C50062A4EB /* SynchronizeStateReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825181522AA90C50062A4EB /* SynchronizeStateReducer.swift */; };
+		0825182122AA90C50062A4EB /* PushReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825181622AA90C50062A4EB /* PushReducer.swift */; };
+		0825182222AA90C50062A4EB /* PopReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825181722AA90C50062A4EB /* PopReducer.swift */; };
+		0825182322AA90C50062A4EB /* DismissModalReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825181822AA90C50062A4EB /* DismissModalReducer.swift */; };
+		0825182522AA90C50062A4EB /* ShowModalReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825181A22AA90C50062A4EB /* ShowModalReducer.swift */; };
+		0825182622AA90C50062A4EB /* ShowOnRootReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825181B22AA90C50062A4EB /* ShowOnRootReducer.swift */; };
+		0825182722AA90C50062A4EB /* ConvertActionMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825181C22AA90C50062A4EB /* ConvertActionMiddleware.swift */; };
+		0825182E22AA995B0062A4EB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0825182922AA995B0062A4EB /* RxSwift.framework */; };
+		0825182F22AA995B0062A4EB /* ReMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0825182A22AA995B0062A4EB /* ReMVVM.framework */; };
+		0825183022AA995B0062A4EB /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0825182B22AA995B0062A4EB /* RxRelay.framework */; };
+		0825183122AA995B0062A4EB /* MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0825182C22AA995B0062A4EB /* MVVM.framework */; };
+		0825183222AA995B0062A4EB /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0825182D22AA995B0062A4EB /* RxCocoa.framework */; };
+		0825183422AA9B730062A4EB /* UIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825183322AA9B730062A4EB /* UIState.swift */; };
+		0825184322AA9E300062A4EB /* ReMVVMExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825184222AA9E300062A4EB /* ReMVVMExtension.swift */; };
+		08C7B5C1234FBD8D000CDF1E /* ViewModelProvided.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C7B5C0234FBD8D000CDF1E /* ViewModelProvided.swift */; };
+		8C45B5FF23293259004B4645 /* Loaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C45B5FE23293259004B4645 /* Loaders.framework */; };
+		8CC32408231FAE0B008A49EB /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825183922AA9BA50062A4EB /* NavigationViewModel.swift */; };
+		8CC3240A231FAE0B008A49EB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825183B22AA9BA50062A4EB /* TabBarViewController.swift */; };
+		8CC3240B231FB0F0008A49EB /* ShowTabReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825181922AA90C50062A4EB /* ShowTabReducer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0825180522AA8F640062A4EB /* ReMVVMExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReMVVMExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0825180822AA8F640062A4EB /* ReMVVMExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReMVVMExt.h; sourceTree = "<group>"; };
+		0825180922AA8F640062A4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0825181122AA90C40062A4EB /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		0825181222AA90C50062A4EB /* ReMVVM+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReMVVM+Rx.swift"; sourceTree = "<group>"; };
+		0825181322AA90C50062A4EB /* StoreActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreActions.swift; sourceTree = "<group>"; };
+		0825181522AA90C50062A4EB /* SynchronizeStateReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronizeStateReducer.swift; sourceTree = "<group>"; };
+		0825181622AA90C50062A4EB /* PushReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushReducer.swift; sourceTree = "<group>"; };
+		0825181722AA90C50062A4EB /* PopReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopReducer.swift; sourceTree = "<group>"; };
+		0825181822AA90C50062A4EB /* DismissModalReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissModalReducer.swift; sourceTree = "<group>"; };
+		0825181922AA90C50062A4EB /* ShowTabReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTabReducer.swift; sourceTree = "<group>"; };
+		0825181A22AA90C50062A4EB /* ShowModalReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowModalReducer.swift; sourceTree = "<group>"; };
+		0825181B22AA90C50062A4EB /* ShowOnRootReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowOnRootReducer.swift; sourceTree = "<group>"; };
+		0825181C22AA90C50062A4EB /* ConvertActionMiddleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertActionMiddleware.swift; sourceTree = "<group>"; };
+		0825182922AA995B0062A4EB /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		0825182A22AA995B0062A4EB /* ReMVVM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReMVVM.framework; path = Carthage/Build/iOS/ReMVVM.framework; sourceTree = "<group>"; };
+		0825182B22AA995B0062A4EB /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		0825182C22AA995B0062A4EB /* MVVM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVVM.framework; path = Carthage/Build/iOS/MVVM.framework; sourceTree = "<group>"; };
+		0825182D22AA995B0062A4EB /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		0825183322AA9B730062A4EB /* UIState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIState.swift; sourceTree = "<group>"; };
+		0825183922AA9BA50062A4EB /* NavigationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		0825183B22AA9BA50062A4EB /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0825184222AA9E300062A4EB /* ReMVVMExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReMVVMExtension.swift; sourceTree = "<group>"; };
+		08C7B5C0234FBD8D000CDF1E /* ViewModelProvided.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelProvided.swift; sourceTree = "<group>"; };
+		37372F2223E912D700B8641C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		8C45B5FE23293259004B4645 /* Loaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Loaders.framework; path = ../Carthage/Build/iOS/Loaders.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0825180222AA8F640062A4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0825182E22AA995B0062A4EB /* RxSwift.framework in Frameworks */,
+				8C45B5FF23293259004B4645 /* Loaders.framework in Frameworks */,
+				0825182F22AA995B0062A4EB /* ReMVVM.framework in Frameworks */,
+				0825183022AA995B0062A4EB /* RxRelay.framework in Frameworks */,
+				0825183122AA995B0062A4EB /* MVVM.framework in Frameworks */,
+				0825183222AA995B0062A4EB /* RxCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082517FB22AA8F640062A4EB = {
+			isa = PBXGroup;
+			children = (
+				37372F2223E912D700B8641C /* Package.swift */,
+				0825180722AA8F640062A4EB /* ReMVVMExt */,
+				0825180622AA8F640062A4EB /* Products */,
+				0825182822AA995B0062A4EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0825180622AA8F640062A4EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0825180522AA8F640062A4EB /* ReMVVMExt.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0825180722AA8F640062A4EB /* ReMVVMExt */ = {
+			isa = PBXGroup;
+			children = (
+				0825181022AA8FDA0062A4EB /* Sources */,
+				0825180822AA8F640062A4EB /* ReMVVMExt.h */,
+				0825180922AA8F640062A4EB /* Info.plist */,
+			);
+			path = ReMVVMExt;
+			sourceTree = "<group>";
+		};
+		0825181022AA8FDA0062A4EB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0825184222AA9E300062A4EB /* ReMVVMExtension.swift */,
+				0825183322AA9B730062A4EB /* UIState.swift */,
+				0825181122AA90C40062A4EB /* Navigation.swift */,
+				0825181322AA90C50062A4EB /* StoreActions.swift */,
+				0825181C22AA90C50062A4EB /* ConvertActionMiddleware.swift */,
+				0825181422AA90C50062A4EB /* Reducers */,
+				0825183522AA9BA50062A4EB /* TabBar */,
+				0825181222AA90C50062A4EB /* ReMVVM+Rx.swift */,
+				08C7B5C0234FBD8D000CDF1E /* ViewModelProvided.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0825181422AA90C50062A4EB /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				0825181522AA90C50062A4EB /* SynchronizeStateReducer.swift */,
+				0825181622AA90C50062A4EB /* PushReducer.swift */,
+				0825181722AA90C50062A4EB /* PopReducer.swift */,
+				0825181822AA90C50062A4EB /* DismissModalReducer.swift */,
+				0825181922AA90C50062A4EB /* ShowTabReducer.swift */,
+				0825181A22AA90C50062A4EB /* ShowModalReducer.swift */,
+				0825181B22AA90C50062A4EB /* ShowOnRootReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		0825182822AA995B0062A4EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C45B5FE23293259004B4645 /* Loaders.framework */,
+				0825182C22AA995B0062A4EB /* MVVM.framework */,
+				0825182A22AA995B0062A4EB /* ReMVVM.framework */,
+				0825182D22AA995B0062A4EB /* RxCocoa.framework */,
+				0825182B22AA995B0062A4EB /* RxRelay.framework */,
+				0825182922AA995B0062A4EB /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0825183522AA9BA50062A4EB /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0825183922AA9BA50062A4EB /* NavigationViewModel.swift */,
+				0825183B22AA9BA50062A4EB /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0825180022AA8F640062A4EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0825180A22AA8F640062A4EB /* ReMVVMExt.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0825180422AA8F640062A4EB /* ReMVVMExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0825180D22AA8F640062A4EB /* Build configuration list for PBXNativeTarget "ReMVVMExt" */;
+			buildPhases = (
+				0825180022AA8F640062A4EB /* Headers */,
+				0825180122AA8F640062A4EB /* Sources */,
+				0825180222AA8F640062A4EB /* Frameworks */,
+				0825180322AA8F640062A4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReMVVMExt;
+			productName = ReMVVMiOSExt;
+			productReference = 0825180522AA8F640062A4EB /* ReMVVMExt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		082517FC22AA8F640062A4EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					0825180422AA8F640062A4EB = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 082517FF22AA8F640062A4EB /* Build configuration list for PBXProject "ReMVVMExt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 082517FB22AA8F640062A4EB;
+			productRefGroup = 0825180622AA8F640062A4EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0825180422AA8F640062A4EB /* ReMVVMExt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0825180322AA8F640062A4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0825180122AA8F640062A4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC3240A231FAE0B008A49EB /* TabBarViewController.swift in Sources */,
+				0825181E22AA90C50062A4EB /* ReMVVM+Rx.swift in Sources */,
+				0825182122AA90C50062A4EB /* PushReducer.swift in Sources */,
+				0825184322AA9E300062A4EB /* ReMVVMExtension.swift in Sources */,
+				0825182222AA90C50062A4EB /* PopReducer.swift in Sources */,
+				0825181F22AA90C50062A4EB /* StoreActions.swift in Sources */,
+				0825183422AA9B730062A4EB /* UIState.swift in Sources */,
+				0825181D22AA90C50062A4EB /* Navigation.swift in Sources */,
+				8CC3240B231FB0F0008A49EB /* ShowTabReducer.swift in Sources */,
+				08C7B5C1234FBD8D000CDF1E /* ViewModelProvided.swift in Sources */,
+				0825182622AA90C50062A4EB /* ShowOnRootReducer.swift in Sources */,
+				8CC32408231FAE0B008A49EB /* NavigationViewModel.swift in Sources */,
+				0825182722AA90C50062A4EB /* ConvertActionMiddleware.swift in Sources */,
+				0825182522AA90C50062A4EB /* ShowModalReducer.swift in Sources */,
+				0825182022AA90C50062A4EB /* SynchronizeStateReducer.swift in Sources */,
+				0825182322AA90C50062A4EB /* DismissModalReducer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0825180B22AA8F640062A4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0825180C22AA8F640062A4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0825180E22AA8F640062A4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/../Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReMVVMExt/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.db.ReMVVMExt;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0825180F22AA8F640062A4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/../Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReMVVMExt/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.db.ReMVVMExt;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		082517FF22AA8F640062A4EB /* Build configuration list for PBXProject "ReMVVMExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0825180B22AA8F640062A4EB /* Debug */,
+				0825180C22AA8F640062A4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0825180D22AA8F640062A4EB /* Build configuration list for PBXNativeTarget "ReMVVMExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0825180E22AA8F640062A4EB /* Debug */,
+				0825180F22AA8F640062A4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 082517FC22AA8F640062A4EB /* Project object */;
+}
